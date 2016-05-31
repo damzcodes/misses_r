@@ -7,6 +7,8 @@ gem 'jquery-rails'
 gem 'turbolinks'
 gem 'activeadmin', github: 'activeadmin'
 gem 'devise'
+gem 'rmagick'
+gem "paperclip", "~> 5.0.0.beta1"
 
 group :test do
   gem 'brakeman'                  # Always latest
